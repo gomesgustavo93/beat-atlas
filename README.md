@@ -46,7 +46,6 @@ Uma aplicação web moderna para explorar e gerenciar sua música no Spotify. De
 ### 🎨 Interface
 - Design moderno com Tailwind CSS
 - Suporte a tema claro e escuro
-- Responsivo
 - Internacionalização (Português e Inglês)
 
 ## 🛠️ Tecnologias
