@@ -1,0 +1,7 @@
+export { default as FollowedArtists } from './FollowedArtists/FollowedArtists';
+export { default as Callback } from './Callback/Callback';
+export { default as Login } from './Login/Login';
+export { default as Home } from './Home/Home';
+export { default as DetailsArtist } from './DetailsArtist/DetailsArtist';
+export { default as Favorites } from './Favorites/Favorites';
+export { default as MyMusics } from './MyMusics/MyMusics';
