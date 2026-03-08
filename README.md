@@ -77,7 +77,7 @@ Antes de começar, você precisará ter instalado:
 
 1. **Clone o repositório**
    ```bash
-   git clone <url-do-repositorio>
+   git clone https://github.com/gomesgustavo93/beat-atlas.git
    cd beat-atlas
    ```
 
