@@ -22,9 +22,10 @@ const LinkHeader = ({ to, children, isActive, icon }: LinkHeaderProps) => {
           'dark:hover:bg-gray-900',
           !isActive && 'dark:text-gray-300'
         )}
+        title={typeof children === 'string' ? children : undefined}
       >
-        {icon && <span className="mr-2">{icon}</span>}
-        {children}
+        {icon && <span className={cn('md:mr-2')}>{icon}</span>}
+        <span className="hidden md:inline">{children}</span>
       </Button>
     </Link>
   )

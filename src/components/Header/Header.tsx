@@ -30,14 +30,16 @@ function Header() {
         'dark:border-gray-700'
       )}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+      <div className="max-w-7xl mx-auto px-2 sm:px-4 md:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-14 sm:h-16">
           <Link
             to="/home"
-            className="flex items-center space-x-3 hover:opacity-80 transition-opacity"
+            className="flex items-center space-x-2 sm:space-x-3 hover:opacity-80 transition-opacity"
           >
-            <Music2 className="w-8 h-8 text-green-500" />
-            <span className="text-2xl font-bold">{t('header.title')}</span>
+            <Music2 className="w-6 h-6 sm:w-8 sm:h-8 text-green-500 flex-shrink-0" />
+            <span className="text-lg sm:text-2xl font-bold hidden sm:inline">
+              {t('header.title')}
+            </span>
           </Link>
 
           <div className="flex items-center space-x-1">
