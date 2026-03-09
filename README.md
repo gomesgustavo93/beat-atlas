@@ -4,6 +4,11 @@ Uma aplicação web moderna para explorar e gerenciar sua música no Spotify. De
 
 ![BeatAtlas](docs/screenshots/home-light.png)
 
+## 🌐 Demo online
+
+A aplicação está disponível em produção em:  
+[`https://beat-atlas-nine.vercel.app`](https://beat-atlas-nine.vercel.app)
+
 ## ✨ Funcionalidades
 
 ### 🔐 Autenticação
@@ -94,15 +99,19 @@ Antes de começar, você precisará ter instalado:
    cp .env.example .env
    ```
    
-   Edite o arquivo `.env` e adicione seu Client ID do Spotify:
+   Edite o arquivo `.env` e configure as variáveis abaixo:
    ```env
    VITE_CLIENT_ID=seu_client_id_aqui
+   VITE_CLIENT_SECRET=seu_client_secret_aqui
+   VITE_REDIRECT_URI=http://127.0.0.1:5173/callback
+   VITE_SPOTIFY_API_URL=https://api.spotify.com/v1
    ```
    
    > **Nota:** 
-   > - Você precisará criar uma aplicação no [Spotify Developer Dashboard](https://developer.spotify.com/dashboard) para obter o `CLIENT_ID`
-   > - Adicione `http://127.0.0.1:5173/callback` como Redirect URI nas configurações da sua aplicação (o Spotify não aceita `localhost`, por isso usamos `127.0.0.1`)
-   > - A variável `VITE_REDIRECT_URI` é opcional - se não for definida, será usada automaticamente `http://127.0.0.1:5173/callback` em desenvolvimento
+   > - Você precisará criar uma aplicação no [Spotify Developer Dashboard](https://developer.spotify.com/dashboard) para obter o `CLIENT_ID` e o `CLIENT_SECRET`
+   > - Adicione `http://127.0.0.1:5173/callback` como Redirect URI nas configurações da sua aplicação (o Spotify não aceita `localhost`, por isso usei `127.0.0.1`)
+   > - A variável `VITE_REDIRECT_URI` é opcional – se não for definida, será usada automaticamente `http://127.0.0.1:5173/callback` em desenvolvimento
+   > - A variável `VITE_SPOTIFY_API_URL` também é opcional – por padrão, o projeto usa `https://api.spotify.com/v1`
 
 4. **Inicie o servidor de desenvolvimento**
    ```bash
@@ -234,6 +243,12 @@ Para usar esta aplicação, você precisa:
 3. Copiar o **Client ID**
 4. Adicionar `http://127.0.0.1:5173/callback` como **Redirect URI** (importante: use `127.0.0.1` ao invés de `localhost`)
 5. Adicionar o Client ID no arquivo `.env` como `VITE_CLIENT_ID`
+
+> ⚠️ **Modo Development no Spotify**
+> - Esta aplicação está registrada no Spotify em **modo de desenvolvimento**
+> - Mesmo que outra conta do Spotify tente acessar, o login será bloqueado se ela **não estiver cadastrada como test user** no Dashboard da aplicação
+> - No modo development o Spotify permite até **5 usuários de teste** por aplicação
+> - Para liberar o acesso para mais pessoas é necessário publicar a aplicação e seguir o processo de revisão do Spotify
 
 > 💡 **Quer entender melhor como funciona o OAuth 2.0?** Consulte a [documentação completa do OAuth](OAUTH_EXPLAINED.md) que explica em detalhes o fluxo de autenticação, segurança e implementação.
 
