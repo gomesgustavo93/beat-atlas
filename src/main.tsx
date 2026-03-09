@@ -12,11 +12,15 @@ import './styles/index.css'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <QueryClientProvider client={queryClient}>
-      <NextThemesProvider attribute="class" defaultTheme="light" enableSystem={false}>
+      <NextThemesProvider
+        attribute="class"
+        defaultTheme="light"
+        enableSystem={false}
+      >
         <UserProvider>
           <RouterProvider router={router} />
         </UserProvider>
       </NextThemesProvider>
     </QueryClientProvider>
-  </StrictMode>,
+  </StrictMode>
 )

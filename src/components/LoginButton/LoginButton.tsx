@@ -1,15 +1,15 @@
-import { useTranslation } from 'react-i18next';
-import { login as loginService } from '../../services/oauthService';
-import { Button } from '../Button';
-import { Logo } from '../Logo';
-import { cn } from '../../utils/cn';
+import { useTranslation } from 'react-i18next'
+import { login as loginService } from '../../services/oauthService'
+import { Button } from '../Button'
+import { Logo } from '../Logo'
+import { cn } from '../../utils/cn'
 
 function LoginButton() {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   const handleLogin = () => {
-    loginService();
-  };
+    loginService()
+  }
 
   return (
     <Button
@@ -36,7 +36,7 @@ function LoginButton() {
     >
       {t('login.button')}
     </Button>
-  );
+  )
 }
 
-export default LoginButton;
+export default LoginButton

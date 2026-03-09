@@ -1,1 +1,1 @@
-export { default } from './ChartPie';
+export { default } from './ChartPie'

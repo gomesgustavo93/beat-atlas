@@ -1,143 +1,143 @@
 {
-    "common": {
-        "loading": "Carregando...",
-        "error": "Erro",
-        "back": "Voltar",
-        "seeDetails": "Ver Detalhes",
-        "followers": "seguidores",
-        "viewOnSpotify": "Ver no Spotify"
+  "common": {
+    "loading": "Carregando...",
+    "error": "Erro",
+    "back": "Voltar",
+    "seeDetails": "Ver Detalhes",
+    "followers": "seguidores",
+    "viewOnSpotify": "Ver no Spotify"
+  },
+  "header": {
+    "title": "BeatAtlas",
+    "home": "Início",
+    "followedArtists": "Artistas Seguidos",
+    "language": "Idioma",
+    "favorites": "Favoritos",
+    "myMusics": "Minhas Músicas"
+  },
+  "home": {
+    "welcomeTitle": "Bem-vindo ao",
+    "welcomeMessage": "Explore seus artistas favoritos e descubra novas músicas",
+    "followedArtistsCard": {
+      "title": "Artistas Seguidos",
+      "description": "Veja todos os artistas que você segue no Spotify"
     },
-    "header": {
-        "title": "BeatAtlas",
-        "home": "Início",
-        "followedArtists": "Artistas Seguidos",
-        "language": "Idioma",
-        "favorites": "Favoritos",
-        "myMusics": "Minhas Músicas"
+    "favoritesCard": {
+      "title": "Favoritos",
+      "description": "Descubra seus artistas e músicas mais ouvidos"
     },
-    "home": {
-        "welcomeTitle": "Bem-vindo ao",
-        "welcomeMessage": "Explore seus artistas favoritos e descubra novas músicas",
-        "followedArtistsCard": {
-            "title": "Artistas Seguidos",
-            "description": "Veja todos os artistas que você segue no Spotify"
-        },
-        "favoritesCard": {
-            "title": "Favoritos",
-            "description": "Descubra seus artistas e músicas mais ouvidos"
-        },
-        "myMusicsCard": {
-            "title": "Minhas Músicas",
-            "description": "Acesse sua biblioteca completa"
-        },
-        "searchResults": {
-            "title": "Resultados da Busca",
-            "loading": "Buscando...",
-            "error": "Erro",
-            "noResults": "Nenhum resultado encontrado.",
-            "artists": "Artistas",
-            "tracks": "Músicas",
-            "albums": "Álbuns"
-        },
-        "of": "de"
+    "myMusicsCard": {
+      "title": "Minhas Músicas",
+      "description": "Acesse sua biblioteca completa"
     },
-    "followedArtists": {
-        "title": "Artistas Seguidos",
-        "loading": "Carregando artistas...",
-        "error": "Erro",
-        "errorMessage": "Erro ao carregar artistas seguidos",
-        "errorDetails": "Verifique se você está autenticado e tem permissão para acessar seus artistas seguidos.",
-        "noArtists": "Nenhum artista encontrado.",
-        "noArtistsYet": "Você ainda não segue nenhum artista.",
-        "total": "artistas que você segue no Spotify."
+    "searchResults": {
+      "title": "Resultados da Busca",
+      "loading": "Buscando...",
+      "error": "Erro",
+      "noResults": "Nenhum resultado encontrado.",
+      "artists": "Artistas",
+      "tracks": "Músicas",
+      "albums": "Álbuns"
     },
-    "detailsArtist": {
-        "loading": "Carregando informações do artista...",
-        "error": "Erro",
-        "errorMessage": "Erro ao carregar artista",
-        "notFound": "Artista não encontrado.",
-        "description": "Explore toda a discografia deste artista. Descubra seus álbuns, singles e músicas mais populares em um só lugar."
-    },
-    "search": {
-        "placeholder": "Digite sua busca...",
-        "label": "Buscar no Spotify",
-        "typesLabel": "Tipos de busca",
-        "searching": "Buscando...",
-        "completed": "Busca concluída! Verifique o console para ver os resultados.",
-        "error": "Erro na busca",
-        "types": {
-            "artist": "Artista",
-            "track": "Música",
-            "album": "Álbum",
-            "playlist": "Playlist",
-            "show": "Show",
-            "episode": "Episódio",
-            "audiobook": "Audiobook"
-        }
-    },
-    "userProfile": {
-        "loading": "Carregando perfil...",
-        "logout": "Sair"
-    },
-    "login": {
-        "title": "Bem-vindo ao BeatAtlas",
-        "subtitle": "Explore o universo da sua música",
-        "welcomeBack": "Bem-vindo de volta!",
-        "description": "Faça login para descobrir e explorar suas músicas favoritas",
-        "button": "Logar com Spotify",
-        "disclaimer": "Ao fazer login, você concorda em conectar sua conta Spotify",
-        "copyright": "© 2026 BeatAtlas. Todos os direitos reservados."
-    },
-    "callback": {
-        "processing": "Processando autenticação...",
-        "error": "Erro na Autenticação"
-    },
-    "pagination": {
-        "showing": "Mostrando"
-    },
-    "favorites": {
-        "title": "Favoritos",
-        "loading": "Carregando...",
-        "error": "Erro",
-        "errorMessage": "Erro ao carregar favoritos",
-        "noItems": "Nenhum item encontrado.",
-        "typeLabel": "Tipo",
-        "timeRangeLabel": "Período",
-        "searchLabel": "Buscar",
-        "searchPlaceholder": "Digite sua busca...",
-        "types": {
-            "artists": "Artistas",
-            "tracks": "Músicas"
-        },
-        "timeRange": {
-            "4weeks": "4 Semanas",
-            "6months": "6 Meses",
-            "allTime": "Todos os Tempos"
-        }
-    },
-    "myMusics": {
-        "title": "Minhas Músicas",
-        "addMusic": "Adicionar Música Favorita",
-        "myFavorites": "Minhas Músicas Favoritas",
-        "noMusics": "Você ainda não adicionou nenhuma música favorita.",
-        "notAuthenticated": "Você precisa estar autenticado para acessar suas músicas favoritas.",
-        "delete": "Excluir",
-        "form": {
-            "musicName": "Nome da Música",
-            "artists": "Artistas",
-            "artistsHint": "Separe múltiplos artistas por vírgula",
-            "spotifyUrl": "URL do Spotify (opcional)",
-            "spotifyUrlHint": "Link da música no Spotify",
-            "duration": "Duração (opcional)",
-            "durationHint": "Formato: MM:SS ou apenas minutos (ex: 3:45 ou 3)",
-            "addButton": "Adicionar Música",
-            "errors": {
-                "musicNameRequired": "O nome da música é obrigatório",
-                "musicNameMinLength": "O nome da música deve ter pelo menos 2 caracteres",
-                "artistsRequired": "Pelo menos um artista é obrigatório",
-                "invalidUrl": "URL inválida. Use um formato válido (ex: https://open.spotify.com/track/...)",
-                "invalidDuration": "Duração inválida. Use o formato MM:SS (ex: 3:45) ou apenas minutos (ex: 3)"
-            }
-        }
+    "of": "de"
+  },
+  "followedArtists": {
+    "title": "Artistas Seguidos",
+    "loading": "Carregando artistas...",
+    "error": "Erro",
+    "errorMessage": "Erro ao carregar artistas seguidos",
+    "errorDetails": "Verifique se você está autenticado e tem permissão para acessar seus artistas seguidos.",
+    "noArtists": "Nenhum artista encontrado.",
+    "noArtistsYet": "Você ainda não segue nenhum artista.",
+    "total": "artistas que você segue no Spotify."
+  },
+  "detailsArtist": {
+    "loading": "Carregando informações do artista...",
+    "error": "Erro",
+    "errorMessage": "Erro ao carregar artista",
+    "notFound": "Artista não encontrado.",
+    "description": "Explore toda a discografia deste artista. Descubra seus álbuns, singles e músicas mais populares em um só lugar."
+  },
+  "search": {
+    "placeholder": "Digite sua busca...",
+    "label": "Buscar no Spotify",
+    "typesLabel": "Tipos de busca",
+    "searching": "Buscando...",
+    "completed": "Busca concluída! Verifique o console para ver os resultados.",
+    "error": "Erro na busca",
+    "types": {
+      "artist": "Artista",
+      "track": "Música",
+      "album": "Álbum",
+      "playlist": "Playlist",
+      "show": "Show",
+      "episode": "Episódio",
+      "audiobook": "Audiobook"
     }
+  },
+  "userProfile": {
+    "loading": "Carregando perfil...",
+    "logout": "Sair"
+  },
+  "login": {
+    "title": "Bem-vindo ao BeatAtlas",
+    "subtitle": "Explore o universo da sua música",
+    "welcomeBack": "Bem-vindo de volta!",
+    "description": "Faça login para descobrir e explorar suas músicas favoritas",
+    "button": "Logar com Spotify",
+    "disclaimer": "Ao fazer login, você concorda em conectar sua conta Spotify",
+    "copyright": "© 2026 BeatAtlas. Todos os direitos reservados."
+  },
+  "callback": {
+    "processing": "Processando autenticação...",
+    "error": "Erro na Autenticação"
+  },
+  "pagination": {
+    "showing": "Mostrando"
+  },
+  "favorites": {
+    "title": "Favoritos",
+    "loading": "Carregando...",
+    "error": "Erro",
+    "errorMessage": "Erro ao carregar favoritos",
+    "noItems": "Nenhum item encontrado.",
+    "typeLabel": "Tipo",
+    "timeRangeLabel": "Período",
+    "searchLabel": "Buscar",
+    "searchPlaceholder": "Digite sua busca...",
+    "types": {
+      "artists": "Artistas",
+      "tracks": "Músicas"
+    },
+    "timeRange": {
+      "4weeks": "4 Semanas",
+      "6months": "6 Meses",
+      "allTime": "Todos os Tempos"
+    }
+  },
+  "myMusics": {
+    "title": "Minhas Músicas",
+    "addMusic": "Adicionar Música Favorita",
+    "myFavorites": "Minhas Músicas Favoritas",
+    "noMusics": "Você ainda não adicionou nenhuma música favorita.",
+    "notAuthenticated": "Você precisa estar autenticado para acessar suas músicas favoritas.",
+    "delete": "Excluir",
+    "form": {
+      "musicName": "Nome da Música",
+      "artists": "Artistas",
+      "artistsHint": "Separe múltiplos artistas por vírgula",
+      "spotifyUrl": "URL do Spotify (opcional)",
+      "spotifyUrlHint": "Link da música no Spotify",
+      "duration": "Duração (opcional)",
+      "durationHint": "Formato: MM:SS ou apenas minutos (ex: 3:45 ou 3)",
+      "addButton": "Adicionar Música",
+      "errors": {
+        "musicNameRequired": "O nome da música é obrigatório",
+        "musicNameMinLength": "O nome da música deve ter pelo menos 2 caracteres",
+        "artistsRequired": "Pelo menos um artista é obrigatório",
+        "invalidUrl": "URL inválida. Use um formato válido (ex: https://open.spotify.com/track/...)",
+        "invalidDuration": "Duração inválida. Use o formato MM:SS (ex: 3:45) ou apenas minutos (ex: 3)"
+      }
+    }
+  }
 }

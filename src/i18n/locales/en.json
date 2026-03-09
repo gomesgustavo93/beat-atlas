@@ -1,143 +1,143 @@
 {
-    "common": {
-        "loading": "Loading...",
-        "error": "Error",
-        "back": "Back",
-        "seeDetails": "See Details",
-        "followers": "followers",
-        "viewOnSpotify": "View on Spotify"
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "back": "Back",
+    "seeDetails": "See Details",
+    "followers": "followers",
+    "viewOnSpotify": "View on Spotify"
+  },
+  "header": {
+    "title": "BeatAtlas",
+    "home": "Home",
+    "followedArtists": "Followed Artists",
+    "language": "Language",
+    "favorites": "Favorites",
+    "myMusics": "My Musics"
+  },
+  "home": {
+    "welcomeTitle": "Welcome to",
+    "welcomeMessage": "Explore your favorite artists and discover new music",
+    "followedArtistsCard": {
+      "title": "Followed Artists",
+      "description": "View all the artists you follow on Spotify"
     },
-    "header": {
-        "title": "BeatAtlas",
-        "home": "Home",
-        "followedArtists": "Followed Artists",
-        "language": "Language",
-        "favorites": "Favorites",
-        "myMusics": "My Musics"
+    "favoritesCard": {
+      "title": "Favorites",
+      "description": "Discover your most listened artists and tracks"
     },
-    "home": {
-        "welcomeTitle": "Welcome to",
-        "welcomeMessage": "Explore your favorite artists and discover new music",
-        "followedArtistsCard": {
-            "title": "Followed Artists",
-            "description": "View all the artists you follow on Spotify"
-        },
-        "favoritesCard": {
-            "title": "Favorites",
-            "description": "Discover your most listened artists and tracks"
-        },
-        "myMusicsCard": {
-            "title": "My Musics",
-            "description": "Access your complete library"
-        },
-        "searchResults": {
-            "title": "Search Results",
-            "loading": "Searching...",
-            "error": "Error",
-            "noResults": "No results found.",
-            "artists": "Artists",
-            "tracks": "Tracks",
-            "albums": "Albums"
-        },
-        "of": "of"
+    "myMusicsCard": {
+      "title": "My Musics",
+      "description": "Access your complete library"
     },
-    "followedArtists": {
-        "title": "Followed Artists",
-        "loading": "Loading artists...",
-        "error": "Error",
-        "errorMessage": "Error loading followed artists",
-        "errorDetails": "Please check if you are authenticated and have permission to access your followed artists.",
-        "noArtists": "No artists found.",
-        "noArtistsYet": "You don't follow any artists yet.",
-        "total": "artists you follow on Spotify."
+    "searchResults": {
+      "title": "Search Results",
+      "loading": "Searching...",
+      "error": "Error",
+      "noResults": "No results found.",
+      "artists": "Artists",
+      "tracks": "Tracks",
+      "albums": "Albums"
     },
-    "detailsArtist": {
-        "loading": "Loading artist information...",
-        "error": "Error",
-        "errorMessage": "Error loading artist",
-        "notFound": "Artist not found.",
-        "description": "Explore this artist's complete discography. Discover their albums, singles, and most popular songs all in one place."
-    },
-    "search": {
-        "placeholder": "Type your search...",
-        "label": "Search on Spotify",
-        "typesLabel": "Search types",
-        "searching": "Searching...",
-        "completed": "Search completed! Check the console to see the results.",
-        "error": "Search error",
-        "types": {
-            "artist": "Artist",
-            "track": "Track",
-            "album": "Album",
-            "playlist": "Playlist",
-            "show": "Show",
-            "episode": "Episode",
-            "audiobook": "Audiobook"
-        }
-    },
-    "userProfile": {
-        "loading": "Loading profile...",
-        "logout": "Logout"
-    },
-    "login": {
-        "title": "Welcome to BeatAtlas",
-        "subtitle": "Explore the universe of your music",
-        "welcomeBack": "Welcome back!",
-        "description": "Log in to discover and explore your favorite songs",
-        "button": "Log in with Spotify",
-        "disclaimer": "By logging in, you agree to connect your Spotify account",
-        "copyright": "© 2026 BeatAtlas. All rights reserved."
-    },
-    "callback": {
-        "processing": "Processing authentication...",
-        "error": "Authentication Error"
-    },
-    "pagination": {
-        "showing": "Showing"
-    },
-    "favorites": {
-        "title": "Favorites",
-        "loading": "Loading...",
-        "error": "Error",
-        "errorMessage": "Error loading favorites",
-        "noItems": "No items found.",
-        "typeLabel": "Type",
-        "timeRangeLabel": "Period",
-        "searchLabel": "Search",
-        "searchPlaceholder": "Type your search...",
-        "types": {
-            "artists": "Artists",
-            "tracks": "Tracks"
-        },
-        "timeRange": {
-            "4weeks": "4 Weeks",
-            "6months": "6 Months",
-            "allTime": "All Time"
-        }
-    },
-    "myMusics": {
-        "title": "My Musics",
-        "addMusic": "Add Favorite Music",
-        "myFavorites": "My Favorite Musics",
-        "noMusics": "You haven't added any favorite music yet.",
-        "notAuthenticated": "You need to be authenticated to access your favorite musics.",
-        "delete": "Delete",
-        "form": {
-            "musicName": "Music Name",
-            "artists": "Artists",
-            "artistsHint": "Separate multiple artists with commas",
-            "spotifyUrl": "Spotify URL (optional)",
-            "spotifyUrlHint": "Link to the music on Spotify",
-            "duration": "Duration (optional)",
-            "durationHint": "Format: MM:SS or just minutes (e.g., 3:45 or 3)",
-            "addButton": "Add Music",
-            "errors": {
-                "musicNameRequired": "Music name is required",
-                "musicNameMinLength": "Music name must be at least 2 characters",
-                "artistsRequired": "At least one artist is required",
-                "invalidUrl": "Invalid URL. Use a valid format (e.g., https://open.spotify.com/track/...)",
-                "invalidDuration": "Invalid duration. Use format MM:SS (e.g., 3:45) or just minutes (e.g., 3)"
-            }
-        }
+    "of": "of"
+  },
+  "followedArtists": {
+    "title": "Followed Artists",
+    "loading": "Loading artists...",
+    "error": "Error",
+    "errorMessage": "Error loading followed artists",
+    "errorDetails": "Please check if you are authenticated and have permission to access your followed artists.",
+    "noArtists": "No artists found.",
+    "noArtistsYet": "You don't follow any artists yet.",
+    "total": "artists you follow on Spotify."
+  },
+  "detailsArtist": {
+    "loading": "Loading artist information...",
+    "error": "Error",
+    "errorMessage": "Error loading artist",
+    "notFound": "Artist not found.",
+    "description": "Explore this artist's complete discography. Discover their albums, singles, and most popular songs all in one place."
+  },
+  "search": {
+    "placeholder": "Type your search...",
+    "label": "Search on Spotify",
+    "typesLabel": "Search types",
+    "searching": "Searching...",
+    "completed": "Search completed! Check the console to see the results.",
+    "error": "Search error",
+    "types": {
+      "artist": "Artist",
+      "track": "Track",
+      "album": "Album",
+      "playlist": "Playlist",
+      "show": "Show",
+      "episode": "Episode",
+      "audiobook": "Audiobook"
     }
+  },
+  "userProfile": {
+    "loading": "Loading profile...",
+    "logout": "Logout"
+  },
+  "login": {
+    "title": "Welcome to BeatAtlas",
+    "subtitle": "Explore the universe of your music",
+    "welcomeBack": "Welcome back!",
+    "description": "Log in to discover and explore your favorite songs",
+    "button": "Log in with Spotify",
+    "disclaimer": "By logging in, you agree to connect your Spotify account",
+    "copyright": "© 2026 BeatAtlas. All rights reserved."
+  },
+  "callback": {
+    "processing": "Processing authentication...",
+    "error": "Authentication Error"
+  },
+  "pagination": {
+    "showing": "Showing"
+  },
+  "favorites": {
+    "title": "Favorites",
+    "loading": "Loading...",
+    "error": "Error",
+    "errorMessage": "Error loading favorites",
+    "noItems": "No items found.",
+    "typeLabel": "Type",
+    "timeRangeLabel": "Period",
+    "searchLabel": "Search",
+    "searchPlaceholder": "Type your search...",
+    "types": {
+      "artists": "Artists",
+      "tracks": "Tracks"
+    },
+    "timeRange": {
+      "4weeks": "4 Weeks",
+      "6months": "6 Months",
+      "allTime": "All Time"
+    }
+  },
+  "myMusics": {
+    "title": "My Musics",
+    "addMusic": "Add Favorite Music",
+    "myFavorites": "My Favorite Musics",
+    "noMusics": "You haven't added any favorite music yet.",
+    "notAuthenticated": "You need to be authenticated to access your favorite musics.",
+    "delete": "Delete",
+    "form": {
+      "musicName": "Music Name",
+      "artists": "Artists",
+      "artistsHint": "Separate multiple artists with commas",
+      "spotifyUrl": "Spotify URL (optional)",
+      "spotifyUrlHint": "Link to the music on Spotify",
+      "duration": "Duration (optional)",
+      "durationHint": "Format: MM:SS or just minutes (e.g., 3:45 or 3)",
+      "addButton": "Add Music",
+      "errors": {
+        "musicNameRequired": "Music name is required",
+        "musicNameMinLength": "Music name must be at least 2 characters",
+        "artistsRequired": "At least one artist is required",
+        "invalidUrl": "Invalid URL. Use a valid format (e.g., https://open.spotify.com/track/...)",
+        "invalidDuration": "Invalid duration. Use format MM:SS (e.g., 3:45) or just minutes (e.g., 3)"
+      }
+    }
+  }
 }
